@@ -1,9 +1,9 @@
 {
-  "name": "three-to-cannon",
-  "version": "3.1.0",
-  "description": "Convert a THREE.Mesh to a CANNON.Shape.",
-  "main": "dist/three-to-cannon.js",
-  "module": "dist/three-to-cannon.module.js",
+  "name": "three-to-physx",
+  "version": "0.0.0",
+  "description": "Convert a THREE.Mesh to a PHYSX.Shape.",
+  "main": "dist/three-to-physx.js",
+  "module": "dist/three-to-physx.module.js",
   "source": "index.js",
   "scripts": {
     "test": "tape test/index.js | tap-spec",
@@ -14,33 +14,34 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/donmccurdy/three-to-cannon.git"
+    "url": "git+https://github.com/hexafield/three-to-physx.git"
   },
   "keywords": [
     "threejs",
     "three",
-    "cannonjs",
-    "cannon",
+    "physx-js",
+    "physxjs",
+    "physx",
     "physics",
     "simulation"
   ],
-  "author": "Don McCurdy <dm@donmccurdy.com>",
+  "author": "Josh Field <joshfield999@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/donmccurdy/three-to-cannon/issues"
+    "url": "https://github.com/hexafield/three-to-physx/issues"
   },
-  "homepage": "https://github.com/donmccurdy/three-to-cannon#readme",
+  "homepage": "https://github.com/hexafield/three-to-physx#readme",
   "peerDependencies": {
-    "cannon-es": "^0.9.1",
+    "physx-js": "^0.3.0",
     "three": "^0.115.0"
   },
   "devDependencies": {
-    "cannon-es": "^0.9.1",
+    "physx-js": "^0.3.0",
     "esm": "^3.2.25",
     "microbundle": "^0.12.0",
     "tap-spec": "^5.0.0",
     "tape": "^4.9.0",
-    "three": "^0.115.0"
+    "three": "^0.124.0"
   },
   "files": [
     "dist/",
